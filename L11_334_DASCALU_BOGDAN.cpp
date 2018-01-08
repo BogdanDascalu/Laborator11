@@ -17,13 +17,6 @@ public:
 	vector <T> v;
 };
 
-template<typename T> bool Stack<T>::isEmpty() const {
-	return (v.empty());
-}
-
-template<typename T> void Stack<T>::push(const T& ob) {
-	v.push_back(ob);
-}
 
 template<typename T> void Stack<T>::pop() {
 	if (isEmpty()) throw "Stiva goala\n";
